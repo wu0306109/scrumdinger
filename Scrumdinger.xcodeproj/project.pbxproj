@@ -20,6 +20,7 @@
 		6FE4C39F2A6CEF02009AB3CF /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE4C39E2A6CEF02009AB3CF /* TrailingIconLabelStyle.swift */; };
 		6FE4C3A12A6CF241009AB3CF /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE4C3A02A6CF241009AB3CF /* ScrumsView.swift */; };
 		6FE4C3A32A6D0281009AB3CF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE4C3A22A6D0281009AB3CF /* DetailView.swift */; };
+		6FE4C3A52A6D1441009AB3CF /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE4C3A42A6D1441009AB3CF /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		6FE4C39E2A6CEF02009AB3CF /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		6FE4C3A02A6CF241009AB3CF /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		6FE4C3A22A6D0281009AB3CF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		6FE4C3A42A6D1441009AB3CF /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				6FE4C39E2A6CEF02009AB3CF /* TrailingIconLabelStyle.swift */,
 				6FE4C3A02A6CF241009AB3CF /* ScrumsView.swift */,
 				6FE4C3A22A6D0281009AB3CF /* DetailView.swift */,
+				6FE4C3A42A6D1441009AB3CF /* DetailEditView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			files = (
 				6FE4C39B2A6CE638009AB3CF /* DailyScrum.swift in Sources */,
 				6FE4C3A32A6D0281009AB3CF /* DetailView.swift in Sources */,
+				6FE4C3A52A6D1441009AB3CF /* DetailEditView.swift in Sources */,
 				6FE4C39F2A6CEF02009AB3CF /* TrailingIconLabelStyle.swift in Sources */,
 				6F1EAEE22A67A3D200AFDD41 /* Theme.swift in Sources */,
 				6FE4C3A12A6CF241009AB3CF /* ScrumsView.swift in Sources */,
