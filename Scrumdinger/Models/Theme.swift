@@ -18,6 +18,25 @@ enum Theme: String {
     case teal
     case yellow
     
+    static let colors: [Theme: Color] = [
+        .bubblegum: Color.pink,
+        .buttercup: Color.yellow,
+        .indigo: Color(UIColor.systemIndigo),
+        .lavender: Color.purple,
+        .magenta: Color(UIColor.magenta),
+        .navy: Color(UIColor.systemBlue),
+        .orange: Color.orange,
+        .oxblood: Color.red.opacity(0.5),
+        .periwinkle: Color.blue.opacity(0.7),
+        .poppy: Color.red,
+        .purple: Color.purple,
+        .seafoam: Color.green.opacity(0.5),
+        .sky: Color.blue,
+        .tan: Color(UIColor.systemTeal).opacity(0.5),
+        .teal: Color(UIColor.systemTeal),
+        .yellow: Color.yellow
+    ]
+    
     var accentColor: Color {
         switch self {
         case .bubblegum, .buttercup, .lavender, .orange, .periwinkle, .poppy, .seafoam, .sky, .tan, .teal, .yellow: return .black
@@ -26,6 +45,6 @@ enum Theme: String {
     }
     
     var mainColor: Color {
-        Color(rawValue)
+        Theme.colors[self] ?? .white
     }
 }
